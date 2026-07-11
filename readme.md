@@ -3,7 +3,7 @@
 
 ---
 
-## 📁 Files
+##  Files
 
 | Files | |
 |------|-------------|
@@ -17,24 +17,24 @@
 
 
 --- 
-### 🟥 ` model.py`  code :
+###  ` model.py`  code :
 
 ##### in this code , all tables and features are constructed and used very frequently .
 ---
 
-### 🟧 ` libraryDataAdapter.py`  code :
+### ` libraryDataAdapter.py`  code :
 
 ##### this code will do all of the tasks to add and delete and search in the tables .  
 
 ---
-### 🟪 ` main.py`  code :
+###  ` main.py`  code :
 
 ##### use this files terminal to add and remove books and authors , etc.
 ---
 
-### ➕ Add / ➖ Delete Objects
+###  Add / ➖ Delete Objects
 
-#### ⚠️ note : these text should be written in the main files `terminal`  ( ` main.py ` )
+#### ⚠ note : these text should be written in the main files `terminal`  ( ` main.py ` )
 - **Add Author**  
   ``` python
   insert author [name] [birthdate] [nationality]
@@ -108,7 +108,7 @@
 ---
 ### 🔍 Search
 
-  #### ⚠️ note : These codes should be written in the test file (`test.py`)
+  ####  note : These codes should be written in the test file (`test.py`)
 
   ```python
   s = LibraryDataAdapter.("Table name")DataAdapter.search("name")
@@ -142,9 +142,9 @@
 
  - `ResourcesDataAdapter`
 
-### 📙 Book search (the strengths of the code)
+###  Book search (the strengths of the code)
 
-- 🟡 code :
+-  code :
 
   ```python
   s = LibraryDataAdapter.BookDataAdapter.search([filters])
@@ -160,7 +160,7 @@
     | category_name | language_name |
   
 
-- 🟢 example :
+-  example :
 
   ```python
   s = LibraryDataAdapter.BookDataAdapter.search(
@@ -195,13 +195,13 @@
    ```
    delete author 2
    ```  
-3. ⚪ If you want , you can search in the tables with `test.py`  , example :
+3.  If you want , you can search in the tables with `test.py`  , example :
    ```python
     s = LibraryDataAdapter.TranslatorDataAdapter.search("pedro")
    ```  
 ---
 
-## ⚙️ Underlying Technology
+##  Underlying Technology
 
 - Uses Python and the built-in `sqlite3` module to manage a lightweight SQL database. :contentReference[oaicite:0]{index=0}  
 - The adapter handles database connection, query execution, insertion, deletion and commit — ensuring persistent storage.  
@@ -209,7 +209,7 @@
 
 ---
 
-## 👍 Why This Project
+##  Why This Project
 
 This project serves as a simple but extensible example of a relational data-based library system. The system can store rich metadata: multiple authors per book, multiple languages, categories, cover designers, translators, sources, publishers, and more - allowing for complex modeling of a book library beyond simple title/author pairs.  
 
