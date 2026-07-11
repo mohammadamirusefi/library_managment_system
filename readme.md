@@ -106,7 +106,7 @@
   Delete book : delete book [book_id]  
   ``` 
 ---
-### 🔍 Search
+###  Search
 
   ####  note : These codes should be written in the test file (`test.py`)
 
