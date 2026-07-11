@@ -1,0 +1,25 @@
+/* ScrollArea اصلی */
+QScrollArea#mainScroll {
+    border: none;
+    background-color: transparent;
+}
+
+/* داخل اسکرول */
+QWidget#contentWidget {
+    background-color: #232323;
+}
+
+/* دکمه‌ها */
+QPushButton#boButton {
+    background-color: #232323;
+    color: white;
+    border: none;
+    padding: 6px;
+    font-size: 13px;
+    padding:10px
+}
+
+/* هاور دکمه */
+QPushButton#boButton:hover {
+    background-color: #4a4a4a;
+}
