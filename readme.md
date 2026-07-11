@@ -34,7 +34,7 @@
 
 ###  Add / ➖ Delete Objects
 
-#### ⚠ note : these text should be written in the main files `terminal`  ( ` main.py ` )
+####  note : these text should be written in the main files `terminal`  ( ` main.py ` )
 - **Add Author**  
   ``` python
   insert author [name] [birthdate] [nationality]
